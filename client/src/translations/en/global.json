@@ -1,0 +1,147 @@
+{
+  "Home": {
+    "title": "Home",
+    "page1": {
+      "title": "Share your emotions"
+    },
+    "page2": {
+      "title": "What the hell is Token Sport?",
+      "subtitle": "Is the first dapp that conects your emotions with the stadium."
+    },
+    "page3": {
+      "text1": "Create your fan profile",
+      "text2": "Choose the club you love "
+    },
+    "page4": "Clapp or boo the players!"
+  },
+  "Burguer": {
+    "Fans": "Fans",
+    "Collaborators": "Collaborators",
+    "Partners": "Partners",
+    "Market": "Market",
+    "Token": "What is TSP?",
+    "AboutUs": "Dream Team",
+    "FAQ": "FAQ",
+    "Wallet": "Wallet Manual"
+  },
+  "Fans": {
+    "title": "Fans",
+    "subtitle": "Be part of Token Sport since its inception.",
+    "text": "Become a “tester user” and in addition to contributing to the improvements of Token Sport, you will receive TSP tokens before anyone else.",
+    "invitation": "Leave us your email and we will send you the steps to follow.",
+    "disclaimer": "*Limited space of 600 users in ALPHA Stage"
+  },
+  "Collaborator": {
+    "title": "Collaborators",
+    "subtitle": "Help in creating content   and journalistic contributions",
+    "text": "Create your journalistic notes and share your knowledge. Help in curating content, updating matches, tournaments, players, transfers, trivia, etc.",
+    "bonus": "You will get access to exclusive information and voting power in decision-making for the future of Token Sport."
+  },
+  "Partners": {
+    "title": "Sponsors",
+    "text": "Advertising space for brands to interact with ...",
+    "text2": "“The largest fan crowd in the world.“",
+    "text3": "Use TSP tokens to have access to exclusive interactions with each user.",
+    "availability": "AVAILABLE: 5,000,000 TSP"
+  },
+  "Market": {
+    "title": "Market",
+    "text": "Access the Token Sport market to exchange your TSP tokens for products and / or services of allied brands.",
+    "subtitle": "You can also exchange your TSPs for fractions of bitcoin.",
+    "tbc": "Invest in TSP tokens and become part of the Token Sport Dream Team.",
+    "cliffhanger": "Soon...",
+    "invitation": "Receive news before anyone else."
+  },
+  "Token": {
+    "title": "What is TSP?",
+    "text-1": "TSP is a token you will have available in your wallet   to buy tickets to matches.",
+    "text-2": "You can get more tokens by interacting in the matches, answering trivia and other activities that you will be unlocking",
+    "text-3": "You can buy your first package of TSP tokens as a VIP fan and access exclusive statistics and content from Token Sport.",
+    "cliffhanger": "Coming Soon..."
+  },
+  "About Us": {
+    "title": "Dream Team"
+  },
+  "FAQ": {
+    "title": "Frequently Asked Questions",
+    "question1": "What is Token Sport? ",
+    "answer1": "It is a free and decentralized platform focused on the transmission of football data that has the fan as its main focus and values their passion in each match.",
+    "question2": "Why is it decentralized",
+    "answer2": "Being an open source and through a DAO (Decentralized Autonomous Organization) the community can use your TSP tokens to make decisions about the development and expansion of Token Sport.",
+    "question3": "What is the token TSP?",
+    "answer3": "The TSP token is a digital asset that each user receives for sharing their emotions and interacting on the platform. We are the largest fan crowd in the world who share our emotions, thus generating a large amount of data and value that is backed by TSP tokens.",
+    "question4": "And what does the fan earn?",
+    "answer4": "At the end of each match, users will receive TSP tokens for having interacted. These tokens are distributed through Smart Contracts that allow transparency and privacy in the interactions that take place.",
+    "question5": "What is the token TSP for?",
+    "answer5": "TSP tokens can be exchanged for official products of football clubs, stadium tickets and different products and services of brands allied to Token Sport or exchanged for fractions of bitcoin (Satoshis).",
+    "question6": "How do I store my TSP",
+    "answer6": "By creating their account, each user receives a unique wallet and gets access to a 12 (twelve) letter seed phrase. WE HIGHLY RECOMMEND THAT YOU KEEP THOSE WORDS IN AN EXTREMELY SAFE PLACE. When you want to recover your balance, you will be asked to verify your authenticity.",
+    "question7": "What is the Token Sport Dream Team",
+    "answer7": "The Dream Team is the team of people who are important to the growth, development and maintenance of Token Sport. The technical and software development area, marketing, early investors, strategic allies, influencers, collaborators and organizations behind the operation of Token Sport.",
+    "question8": "How do I contact support?",
+    "answer8": "You can contact verified users who will help you with the management of the platform. ALWAYS REMEMBER TO TALK TO A VERIFIED USER WITHIN THE PLATFORM.",
+    "question9": "What is the TSP Foundation?",
+    "answer9": "It is a non-profit organization, organized through a DAO (Autonomous and Decentralized Organization) that receives and distributes TSP tokens, for the creation of training and educational spaces and creating opportunities for low-income boys and girls and supporting them in the development of your professional career.",
+    "details": "",
+    "goodbye": ""
+  },
+  "Button": {
+    "Join": "Join",
+    "SignUp": "Sign Up"
+  },
+  "Packs": {
+    "pack": "Pack",
+    "press": "Press",
+    "sponsor": "Sponsor",
+    "moreInfo": "More info"
+  },
+  "Wallet": {
+    "title": "How to create my TSP Wallet?",
+    "info": "When create your profile you will receive an amount of TSP tokens that you’ll be able to use on the platform. And, to store those TSP you’ll need a wallet. In this tutorial we are going to teach you how to create your TSP wallet. The process is very easy and will only take just two minutes.",
+    "info2": "*If you already use metamask or know how to link a crypto wallet go to step N.º 5.",
+    "info3": "",
+    "1": " Go to the Play Store or AppStore and then search and install the Metamask App.",
+    "2": "Once you’re inside Metamask’s App, you’ll see that after you press “Start” you can choose between ‘Import from seed phrase’ “Scan QR” and “ Create Wallet”.",
+    "3": "If you select the  “create wallet” option it  will ask you to create a password and to accept terms and conditions.",
+    "4": "Next you’ll be provided with a phrase, this phrase is really important, if you lose it or corrupt it you won't be able to restore your wallet. Keep it safe. ¡And there it is! ¡You successfully created your Metamask wallet!",
+    "5": "On the top of the interface you’ll see a green dot  that says “Ethereum Main Network”, press it and it will display a few network options, we’ll select the “Ropsten Test Network” (this is the network where TSP is currently hosted). Then collapse the options.",
+    "6": "On the dashboard now we can see that we are on the “Ropsten Test Network” and we’ll select  “Add Tokens”.",
+    "7": "We are going to go through  a search menu.",
+    "8": "We are going to see an option of “Custom Token”, after you select it you’ll see a form.",
+    "9": "We are going to paste the following code inside  “Token Contract Address” 0xfc110e7b8c76914a6b 7fdb4dec492f20efa1cbe6 ",
+    "10": "Once you paste it, the form will autocomplete and you’ll see the token symbol “TSP “and “Decimals of Precision” you’ll see 18. Now press the add token button and it’s ready.",
+    "w1": {
+      "qtion": "How do I receive TSP tokens?",
+      "awr": "To receive tokens we must provide our address, our public key. We will find this on the main page, where it says the name of our account (In the image, where it says “Account 1”). If we press there, we will see our address (that long code) and now we just have to copy it and share it with whoever sends us the tokens."
+    },
+    "w2": {
+      "qtion": "How do I send tokens?",
+      "awr": "To send TSP you have to click on the token, then press the “Send” option, "
+    },
+    "w3": {
+      "qtion": "",
+      "awr": "complete the form with the address of the recipient wallet, confirm and it’s done."
+    },
+    "contact": "If you have any doubts, contact us through soporte@tokensport.co. ",
+    "imp": "IMPORTANT:",
+    "advise": "We encourage you to save your seed phrase. If you lose it you’ll lose your access to your tokens FOREVER. Token Sport will never ask for any of your private keys."
+  },
+  "Form": {
+    "labels": {
+      "username": "Username",
+      "email": "Email",
+      "password": "Password"
+    },
+    "advise": "Enter the username, a valid email and a password of at least 6 characters.",
+    "alerts": {
+      "success": "Registered user! ",
+      "success2": "You will receive an email with more information.",
+      "error": "An error has occurred. Review the data entered and try again."
+    }
+  },
+  "404": {
+    "error": "Error 404",
+    "text": "PAGE NOT FOUND",
+    "button": "Go to Home"
+  }
+}

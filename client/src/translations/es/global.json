@@ -1,0 +1,150 @@
+{
+  "Home": {
+    "title": "Inicio(Home)",
+    "page1": {
+      "title": "Comparte tus emociones"
+    },
+    "page2": {
+      "title": "¿Qué rayos es Token Sport?",
+      "subtitle": "Es la primera Dapp que conecta tus emociones con la cancha."
+    },
+    "page3": {
+      "text1": "Crea tu perfil de fanático",
+      "text2": "Elige el club de tus amores"
+    },
+    "page4": "¡Abuchea y Aplaude a los jugadores en Vivo!"
+  },
+  "Burguer": {
+    "Fans": "Hinchas",
+    "Collaborators": "Colaboradores",
+    "Partners": "Auspiciantes",
+    "Market": "Mercado",
+    "Token": "¿Qué es TSP?",
+    "AboutUs": "Dream Team",
+    "FAQ": "FAQ",
+    "Wallet": "Manual Cartera"
+  },
+  "Fans": {
+    "title": "Hinchas",
+    "subtitle": "Sé parte de Token Sport desde sus inicios.",
+    "text": "Conviertete en “usuario tester“ y además de aportar a las mejoras de Token Sport recibirás tokens TSP antes que nadie.",
+    "invitation": "Dejanos tu correo electronico y te enviaremos los pasos a seguir.",
+    "disclaimer": "*Cupo Limitado 600 usuarios en Etapa ALPHA"
+  },
+  "Collaborator": {
+    "title": "Colaboradores",
+    "subtitle": "Ayuda en la creación de contenidos y aportes periodísticos",
+    "text": "Crea tus notas periodísticas y comparte tu conocimieno. Ayuda en la curación de contenidos, actualización de partidos, torneos, jugadores, fichajes, trivias, etc. Obtendrás acceso a información exclusiva y poder de votación en la toma de decisiones para el futuro de Token Sport."
+  },
+  "Partners": {
+    "title": "Auspiciantes",
+    "text": "Espacio publicitario para que las marcas interactúen con...",
+    "text2": "“La hinchada más grande del mundo”.",
+    "text3": "Utiliza tokens TSP para tener acceso a interacciones exclusivas con cada usuario.",
+    "availability": "Disponibilidad: 5.000.000 TSP"
+  },
+  "Market": {
+    "title": "Mercado",
+    "text": "Accede al mercado de Token Sport para canjear tus tokens TSP por productos y/o servicios de  marcas aliadas.",
+    "subtitle": "También puedes intercambiar tus TSP por fracciones de bitcoin. ",
+    "tbc": "Invierte en tokens TSP y formar parte del Dream Team de Token Sport.",
+    "cliffhanger": "Proximamente...",
+    "invitation": "Recibe las novedades antes que nadie"
+  },
+  "Token": {
+    "title": "¿Qué es TSP?",
+    "text-1": "TSP es un token que tendrás disponible en tu billetera para comprar las entradas a los partidos",
+    "text-2": "Puedes obtener más tokens interactuando en los partidos, respondiendo trivias y otras actividades que irás desbloqueando",
+    "text-3": "Puedes comprar tu primer paquete de tokens TSP como fanátic@ VIP y acceder a estadísticas y contenidos exclusivos de Token Sport.",
+    "cliffhanger": "Proximamente..."
+  },
+  "About Us": {
+    "title": "Dream Team"
+  },
+  "FAQ": {
+    "title": "Preguntas frecuentes",
+    "question1": "¿Qué es Token Sport? ",
+    "answer1": "Es una plataforma gratuita y descentralizada enfocada en la transmisión de datos futbolísticos que tiene como foco principal al hincha y valora su pasión en cada partido.",
+    "question2": "¿Por qué es descentralizado?",
+    "answer2": "Al ser un código abierto y mediante una DAO (Organización Autónoma Descentralizada) la comunidad puede utilizar tus tokens TSP para tomar decisiones sobre el desarrollo y expansión de Token Sport.",
+    "question3": "¿Qué es el token TSP?",
+    "answer3": "El token TSP es un activo digital que recibe cada usuario por compartir sus emociones e interactuar en la plataforma. Somos la hinchada de fanáticos más grande del mundo que compartimos nuestras emociones, generando así gran cantidad de datos y de valor que es respaldado en tokens TSP.",
+    "question4": "¿Y qué gana el hincha?",
+    "answer4": "Al finalizar cada partido, los usuarios recibirán tokens TSP por haber interactuado. Estos tokens se distribuyen mediante Contratos Inteligentes que permiten transparencia y privacidad en las interacciones que se realizan.",
+    "question5": "¿Para qué sirve el token TSP?",
+    "answer5": "Los tokens TSP podrán ser intercambiados por productos oficiales de los clubes de fútbol, entradas al estadio y diferentes productos y servicios de marcas aliadas a Token Sport o intercambiar por fracciones de bitcoin (Satoshis).",
+    "question6": "¿Cómo guardo mis TSP?",
+    "answer6": "Al crear su cuenta, cada usuario recibe una billetera única y obtiene acceso a una palabra semilla de 12 (doce) palabras. RECOMENDAMOS ENORMEMENTE QUE GUARDES EN UN LUGAR EXTREMADAMENTE SEGURO ESAS PALABRAS. Al momento de que quieras recuperar tu saldo, se te solicitarán para verificar tu autenticidad.",
+    "question7": "¿Qué es el Dream Team de Token Sport?",
+    "answer7": "El Dream Team es el equipo de personas que son importantes para el crecimiento, desarrollo y mantenimiento de Token Sport. El área técnica y de desarrollo de software, marketing, inversionistas temprano, aliados estratégicos, influenciadores, colaboradores y organizaciones detrás del funcionamiento de Token Sport.",
+    "question8": "¿Cómo me comunico con soporte?",
+    "answer8": "Puedes contactarte con usuarios verificados que te ayudarán con el manejo de la plataforma. RECUERDA SIEMPRE HABLAR CON UN USUARIO VERIFICADO DENTRO DE LA PLATAFORMA.",
+    "question9": "¿Qué es la fundación TSP?",
+    "answer9": "Es un organismo sin fines de lucro, organizado mediante una DAO (Organización autónoma y descentralizada) que recibe y distribuye tokens TSP, para la creación de espacios de entrenamientos, educativos y creando oportunidades para niños y niñas de bajos recursos y acompañándolos en el desarrollo de su carrera profesional. Conoce como funciona la Fundación TSP.",
+    "details": "Lee el Whitepaper Oficial para conocer a fondo el funcionamiento de Token Sport y siente la libertad de enviarnos tu opinión.",
+    "goodbye": "FRASE LINDA",
+    "ReachUs":{
+      "message": "Ùnete a la comunidad de Tokensport.",
+      "Telegram":"https://t.me/comunidadtsp"
+    }
+  },
+  "Button": {
+    "Join": "Sumate",
+    "SignUp": "Registrate"
+  },
+  "Packs": {
+    "pack": "Paquete",
+    "press": "Prensa",
+    "sponsor": "Auspiciante",
+    "moreInfo": "Más info"
+  },
+  "Wallet": {
+    "title": "¿Cómo crear una billetera de TSP?",
+    "info": "Lo primero que necesitas para interactuar con Token Sport son los Tokens Tsp, que sirven para pagar las entradas a partidos, apostar por jugadores e intercambiar por otras criptomonedas.\r\nY para guardar tus TSP necesitas una billetera. Actualmente utilizamos Metamask y en este tutorial te enseñaremos a crear tu billetera de TSP dentro de la red Ropstein usando Metamask.  ",
+    "info2": "* Si ya usas Metamask o sabes abrir una billetera cripto ve al punto Nro 5.",
+    "info3": "* Si es la primera vez que abres una billetera, lee con mucha atención desde el punto Nro 1.",
+    "1": "Ir a la tienda Play Store o Apple Store, buscar y descargar la aplicación Metamask. ",
+    "2": "Abres la aplicacion Metamask, presionas el botón “Empezar” y te dará a elegir si quieres “importar usando frase semilla”, “Escanear código QR” o “Crear billetera”.",
+    "3": "Si eliges “crear una billetera” te pedirá que indiques una contraseña y que aceptes los términos y condiciones. A continuación te dará una frase, esa frase es muy importante, si la pierdes no podrás recuperar tu billetera, guardala con cuidado en un lugar seguro.¡Y ya está! Billetera de Metamask Creada!",
+    "4": "Ahora vamos a crear una billetera de TSP dentro de Metamask.",
+    "5": "En la parte superior veremos un punto verde que dice “Ethereum Main Network”, si presionamos ahí, veremos que se despliega un panel de opciones de redes. Seleccionaremos “Ropstein Test Network” (en esta red circulan los Tokens TSP) y cerramos el panel.",
+    "6": "En la pantalla principal veremos ahora que estamos en la “Ropstein Test Network” y presionaremos en “Agregar Tokens”.",
+    "7": "Llegaremos a un menu de busqueda,",
+    "8": "Veremos una pestaña que dirá “Token Personalizado” si la seleccionamos nos mostrará un formulario. ",
+    "9": "Donde dice “Dirección del Token” pegaremos el siguiente código: 0xfc110e7b8c76914a6b 7fdb4dec492f20efa1cbe6. Una vez hecho esto veremos que el resto del formulario se auto completó. En “Símbolo del Token” aparecerá “TSP” y en “token de Precisión” se verá el número 18. Ahora presiona el botón “Agregar Token” Y listo.",
+    "10": "Ya tenemos nuestra billetera de Tokens TSP en nuestra billetera de Metamask.",
+    "w1": {
+      "qtion": "¿Cómo recibo mis tokens?",
+      "awr": "Para recibir tokens debemos proporcionar nuestra dirección, nuestra llave pública. Este lo encontraremos, en la página principal, donde dice el nombre de nuestra cuenta (En la imagen, donde dice “Account 1”). Si presionamos ahí, veremos nuestra dirección (ese código largo) y ahora solo tenemos que copiarla y compartirla con quien nos envía los tokens. "
+    },
+    "w2": {
+      "qtion": " ¿Cómo envio tokens?",
+      "awr": "Para enviar tokens TSP debemos cliquear en el token y llegaremos a esa pantalla. Aquí precionaremos el botón ”Enviar”.  "
+    },
+    "w3": {
+      "qtion": "",
+      "awr": "Colocamos la dirección de la billetera a la que queremos enviar los tokens."
+    },
+    "contact": "Ante cualquier duda, puedes contactarnos a soporte@tokensport.co",
+    "imp": "IMPORTANTE:",
+    "advise": "Por favor guarda de forma muy segura tu clave privada. Si la pierdes NO PODRÁS RECUPERAR TUS TSP. Token Sport JAMÁS te pedirá tu clave privada."
+  },
+  "Form": {
+    "labels": {
+      "username": "Nombre del usuario",
+      "email": "Email",
+      "password": "Contraseña"
+    },
+    "advise": "Ingrese nombre del usuario, un email válido y una contraseña de al menos 6 caracteres.",
+    "alerts": {
+      "success": "Usuario registrado!",
+      "success2": "Te llegará un correo con más información.",
+      "error": "Ha ocurrido un error. Revisa los datos ingresados y prueba de nuevo."
+    }
+  },
+  "404": {
+    "error": "Error 404",
+    "text": "PÁGINA NO ENCONTRADA",
+    "button": "Volver al Home"
+  }
+}
