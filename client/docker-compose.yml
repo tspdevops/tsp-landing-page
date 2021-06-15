@@ -1,0 +1,32 @@
+version: "3.4"
+services: 
+        server:
+                image: nginx:1.21.0-alpine
+                volumes:
+                        -/projects/tsp-landing-page/client/build/:/usr/share/nginx/html
+
+        app:
+                image: 'jc21/nginx-proxy-manager:latest'
+                ports:
+                        - 80:80
+                        - 81:81
+                        - 443:443
+                environment:
+                      DB_MYSQL_HOST: "db"
+                      DB_MYSQL_PORT: 3306
+                      DB_MYSQL_USER: "tspdevops"
+                      DB_MYSQL_PASSWORD: "tspesdetod0s"
+                      DB_MYSQL_NAME: "webservices"
+                volumes:
+                        - ./data:/data
+                        - ./letsencrypt:/etc/letsencrypt
+
+        db:
+                image: 'jc21/mariadb-aria:latest'
+                environment:
+                        MYSQL_ROOT_PASSWORD: 'tspesdetod0s'
+                        MYSQL_DATABASE: 'webservices'
+                        MYSQL_USER: 'tspdevops'
+                        MY_SQL_PÀSSWSORD: 'tspesdetod0s'
+    volumes:
+      - ./data/mysql:/var/lib/mysql
