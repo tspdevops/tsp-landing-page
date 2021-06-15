@@ -1,46 +1,32 @@
 version: '3'
-
 services:
-  nginx-proxy:
-    image: jwilder/nginx-proxy
-    restart: always
-    ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - /var/run/docker.sock:/tmp/docker.sock:ro
-      - certs:/etc/nginx/certs:ro
-      - vhostd:/etc/nginx/vhost.d
-      - html:/usr/share/nginx/html
-    labels:
-      - com.github.jrcs.letsencrypt_nginx_proxy_companion.nginx_proxy
-
-  letsencrypt:
-    image: jrcs/letsencrypt-nginx-proxy-companion
-    restart: always
-    environment:
-      - NGINX_PROXY_CONTAINER=nginx-proxy
-    volumes:
-      - certs:/etc/nginx/certs:rw
-      - vhostd:/etc/nginx/vhost.d
-      - html:/usr/share/nginx/html
-      - /var/run/docker.sock:/var/run/docker.sock:ro
-
-  www:
-    image: nginx:alpine
-    restart: always
-    expose:
-      - "80"
-    volumes:
-      - /root/tsp-web-frontend/client/build:/usr/share/nginx/html:ro
-    environment:
-      - VIRTUAL_HOST=tokensport.co,www.tokensport.co
-      - LETSENCRYPT_HOST=tokensport.co,www.tokensport.co
-      - LETSENCRYPT_EMAIL=admin@tokensport.co
-    depends_on:
-      - nginx-proxy
-      - letsencrypt
-volumes: 
-  certs:
-  html:
-  vhostd:
+        app:
+                image: 'jc21/nginx-proxy-manager:latest'
+                ports:
+                        - '80:80'
+                        - '81:81'
+                        - '443:443'
+                environment:
+                        DB_MYSQL_HOST: "db"
+                        DB_MYSQL_PORT: 3306
+                        DB_MYSQL_USER: "npm"
+                        DB_MYSQL_PASSWORD: "npm"
+                        DB_MYSQL_NAME: "npm"
+                volumes:
+                        - ./data:/data
+                        - ./letsencrypt:/etc/letsencrypt
+        db:
+                image: 'jc21/mariadb-aria:10.4'
+                environment:
+                        MYSQL_ROOT_PASSWORD: 'npm'
+                        MYSQL_DATABASE: 'npm'
+                        MYSQL_USER: 'npm'
+                        MYSQL_PASSWORD: 'npm'
+                volumes:
+                        - ./data/mysql:/var/lib/mysql
+        www:
+                image: nginx
+                volumes:
+                        - .:/usr/share/nginx/html
+                ports:
+                        - "8080:80"
