@@ -1,32 +1,46 @@
-version: "3.4"
-services: 
-        server:
-                image: nginx:1.21.0-alpine
-                volumes:
-                        -/projects/tsp-landing-page/client/build/:/usr/share/nginx/html
+version: '3'
 
-        app:
-                image: 'jc21/nginx-proxy-manager:latest'
-                ports:
-                        - 80:80
-                        - 81:81
-                        - 443:443
-                environment:
-                      DB_MYSQL_HOST: "db"
-                      DB_MYSQL_PORT: 3306
-                      DB_MYSQL_USER: "tspdevops"
-                      DB_MYSQL_PASSWORD: "tspesdetod0s"
-                      DB_MYSQL_NAME: "webservices"
-                volumes:
-                        - ./data:/data
-                        - ./letsencrypt:/etc/letsencrypt
+services:
+  nginx-proxy:
+    image: jwilder/nginx-proxy
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+      - certs:/etc/nginx/certs:ro
+      - vhostd:/etc/nginx/vhost.d
+      - html:/usr/share/nginx/html
+    labels:
+      - com.github.jrcs.letsencrypt_nginx_proxy_companion.nginx_proxy
 
-        db:
-                image: 'jc21/mariadb-aria:latest'
-                environment:
-                        MYSQL_ROOT_PASSWORD: 'tspesdetod0s'
-                        MYSQL_DATABASE: 'webservices'
-                        MYSQL_USER: 'tspdevops'
-                        MY_SQL_PÀSSWSORD: 'tspesdetod0s'
-                volumes:
-                        - ./data/mysql:/var/lib/mysql
+  letsencrypt:
+    image: jrcs/letsencrypt-nginx-proxy-companion
+    restart: always
+    environment:
+      - NGINX_PROXY_CONTAINER=nginx-proxy
+    volumes:
+      - certs:/etc/nginx/certs:rw
+      - vhostd:/etc/nginx/vhost.d
+      - html:/usr/share/nginx/html
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+
+  www:
+    image: nginx:alpine
+    restart: always
+    expose:
+      - "80"
+    volumes:
+      - /root/tsp-web-frontend/client/build:/usr/share/nginx/html:ro
+    environment:
+      - VIRTUAL_HOST=tokensport.co,www.tokensport.co
+      - LETSENCRYPT_HOST=tokensport.co,www.tokensport.co
+      - LETSENCRYPT_EMAIL=admin@tokensport.co
+    depends_on:
+      - nginx-proxy
+      - letsencrypt
+volumes: 
+  certs:
+  html:
+  vhostd:
