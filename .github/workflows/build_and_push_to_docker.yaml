@@ -31,8 +31,4 @@ jobs:
         with: 
           push: true
           tags: ${{github.repository}}:landingpage, ${{github.sha}}, ${{github.ref}}
-          
-          
-      -
-        name: Image digest
-        run: echo ${{ steps.docker_build.outputs.digest }}
+        
