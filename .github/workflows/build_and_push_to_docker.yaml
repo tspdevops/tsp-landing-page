@@ -27,7 +27,11 @@ jobs:
         uses: docker/build-push-action@v2
         with: 
           push: true
-          tags: ${{github.repository}}:landingpage
+          tags:
+                 ${{ github.repository }}:landingpage
+                 
+          labels: ${{ github.sha }} 
+          
 
 
 
