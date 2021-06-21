@@ -25,8 +25,6 @@ services:
                 volumes:
                         - ./data/mysql:/var/lib/mysql
         www:
-                image: nginx
-                volumes:
-                        - .:/usr/share/nginx/html
+                image: tspdevops/tsp-web-frontend:landingpage
                 ports:
                         - "8080:80"
