@@ -1,3 +1,42 @@
+Spanish Version
+Token Sport es una plataforma Open Source administrada por miembros del Dream Team. Para conocer a profundidad el proyecto, puedes leer los detalles en www.tokensport.co/whitepaper 
+Los aportes que se realicen serán verificados e implementados por el equipo. Quienes aporten al desarrollo de la plataforma, deben escribir a dreamteam@tokensport.co, mencionando su usuario de Github, el aporte realizado y enviando su billetera pública de TSP para recibir tokens a cambio de sus aportes.
+
+Cómo abrir tu billetera TSP (Red de prueba de Ropstein) www.tokensport.co/wallet 
+
+También puedes sumarte al canal de Slack 
+https://join.slack.com/t/tokensport/shared_invite/zt-n3j2uwao-ARVP07eTzQ2u055kjQ29Ug 
+
+Comunidad en Telegram Español
+https://t.me/comunidadtsp   
+
+Comunidad en Telegram Inglés
+https://t.me/TokenSportCommunity 
+
+Comunidad en Discord
+https://discord.gg/eAEgWxDX
+
+
+English Version
+Token Sport is an Open Source platform managed by members of the Dream Team. To learn more about the project, you can read the details at www.tokensport.co/whitepaper
+The contributions made will be verified and implemented by the team. Those who contribute to the development, should write to dreamteam@tokensport.co, mentioning their Github user, the contribution made and sending their public TSP wallet to receive tokens for their contributions.
+
+How to open your TSP wallet (Ropstein Testnet) www.tokensport.co/wallet
+
+You can also join the Slack channel
+https://join.slack.com/t/tokensport/shared_invite/zt-n3j2uwao-ARVP07eTzQ2u055kjQ29Ug 
+
+Spanish Telegram Community
+https://t.me/comunidadtsp   
+
+English Telegram Community
+https://t.me/TokenSportCommunity 
+
+Discord Community
+https://discord.gg/eAEgWxDX
+
+---------------------------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
