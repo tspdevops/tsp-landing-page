@@ -20,7 +20,7 @@ Comunidad en Discord
 Token Sport is an Open Source platform managed by members of the Dream Team. To learn more about the project, you can read the details at www.tokensport.co/whitepaper
 The contributions made will be verified and implemented by the team. Those who contribute to the development, should write to dreamteam@tokensport.co, mentioning their Github user, the contribution made and sending their public TSP wallet to receive tokens for their contributions.
 
-How to open your TSP wallet (Ropstein Testnet) <br><br>www.tokensport.co/wallet
+How to open your TSP wallet (Ropstein Testnet) <br>www.tokensport.co/wallet
 
 You can also join the Slack channel
 <br>https://join.slack.com/t/tokensport/shared_invite/zt-n3j2uwao-ARVP07eTzQ2u055kjQ29Ug 
