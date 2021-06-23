@@ -16,7 +16,7 @@ Comunidad en Discord
 <br>https://discord.gg/eAEgWxDX
 
 
-##English Version<br>
+## English Version<br>
 Token Sport is an Open Source platform managed by members of the Dream Team. To learn more about the project, you can read the details at www.tokensport.co/whitepaper
 The contributions made will be verified and implemented by the team. Those who contribute to the development, should write to dreamteam@tokensport.co, mentioning their Github user, the contribution made and sending their public TSP wallet to receive tokens for their contributions.
 
